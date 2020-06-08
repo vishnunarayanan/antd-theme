@@ -1,0 +1,40 @@
+{
+  "name": "antd-live-theme",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "latest",
+    "antd-theme-webpack-plugin": "^1.3.6",
+    "less-vars-to-js": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
+  },
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.14",
+    "@rescripts/rescript-env": "^0.0.12",
+    "@rescripts/rescript-use-babel-config": "^0.0.10",
+    "babel-plugin-import": "^1.11.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "prettier": "latest"
+  },
+  "rescripts": [
+    ".rescriptsrc.js"
+  ]
+}
